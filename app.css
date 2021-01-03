@@ -10002,6 +10002,20 @@ header .top-menu li a {
   font-weight: bold;
 }
 
+.woocommerce .woocommerce-input-wrapper {
+  width: 100%;
+  display: block;
+}
+
+.woocommerce form .form-row input.input-text, .woocommerce form .form-row textarea {
+  padding: 0.25rem;
+  height: 30px;
+  border: 1px solid #999 !important;
+  background: #f0f0f0;
+  border: 0;
+  border-radius: 5px;
+}
+
 #hero {
   height: 300px;
   width: 100%;
@@ -10052,6 +10066,6 @@ footer {
   border-radius: 0.5rem;
 }
 
-.pagination {
+.pagination a {
   color: red;
 }

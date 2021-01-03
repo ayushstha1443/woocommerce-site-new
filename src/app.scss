@@ -1,6 +1,7 @@
 @import 'node_modules/bootstrap/scss/bootstrap';
 @import 'colours';
 @import 'header';
+@import 'woocommerce';
 
 #hero {
     height: 300px;
@@ -54,5 +55,7 @@ footer {
 }
 
 .pagination {
+    a {
     color: red;
+    }
 }
