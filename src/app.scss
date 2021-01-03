@@ -1,0 +1,58 @@
+@import 'node_modules/bootstrap/scss/bootstrap';
+@import 'colours';
+@import 'header';
+
+#hero {
+    height: 300px;
+
+    @media screen and (min-width: 768px) {
+        height: 450px;
+    }
+
+    @media screen and (min-width: 1200px) {
+        height: 550px;
+    }
+
+
+    width: 100%;
+    background: url('images/fashion-2.jpg') #f0f0f0;
+    background-size: cover;
+    h1 {
+        color: $light;
+    }
+}
+
+.content {
+    padding: 3rem 0;
+}
+
+footer {
+    height: 300px;
+    width: 100%;
+    background: #f0f0f0;
+}
+
+.widget {
+    list-style-type: none;
+    margin: 0;
+    padding: 1.5rem;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.25);
+    border-radius: .5rem;
+
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+}
+
+.blog-post {
+    padding: 1rem;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.25);
+    margin-bottom: 2rem;
+    border-radius: .5rem;
+}
+
+.pagination {
+    color: red;
+}
